@@ -18,4 +18,9 @@ public class HelloWorldController {
         model.addAttribute("message", "Spring 5 MVC Hello World");
         return "helloworld";
     }
+
+    @RequestMapping(value = "/hi",method = RequestMethod.GET)
+    public String hi() {
+        return "hi";
+    }
 }
