@@ -20,4 +20,5 @@
     </bean>
     <mvc:resources mapping="/resources/**" location="/resources/mytheme/"/>
     <mvc:annotation-driven />
+    <import resource="Beans.xml"></import>
 </beans>
