@@ -13,9 +13,9 @@
 </head>
 <body>
   <form action="/login" method="GET">
-    First Name: <input type="text" name="first_name">
+    First Name: <input type="text" name="name">
     <br />
-    Last Name: <input type="text" name="last_name" />
+    Last Name: <input type="text" name="password" />
     <input type="submit" value="Submit" />
 </form>
 </body>
